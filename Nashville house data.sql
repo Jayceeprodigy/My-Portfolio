@@ -2,7 +2,7 @@ SELECT *
 FROM [Nashville Housing]
 
 
--- Standardize Date Format
+-- Standerdize Date Format
 SELECT SaleDate, CONVERT(Date, SaleDate)
 FROM [Portfolio _Project].dbo.[Nashville Housing]
 
